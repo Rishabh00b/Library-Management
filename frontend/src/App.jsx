@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "http://localhost:5000/api/books";
+const API = "https://library-management-7nah.onrender.com/api/books";
 
 function App() {
   const [books, setBooks] = useState([]);
